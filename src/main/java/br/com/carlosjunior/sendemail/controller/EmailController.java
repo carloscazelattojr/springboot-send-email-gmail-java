@@ -10,14 +10,20 @@ import br.com.carlosjunior.sendemail.service.EmailService;
 @RestController
 @RequestMapping("/api")
 public class EmailController {
-	
+
 	@Autowired
 	EmailService emailService;
-	
-	
+
 	@GetMapping("/sendEmail")
 	public String sendEmail() {
-		return "";
+		return emailService.sendEmail();
 	}
 	
+	@GetMapping("/sendEmailwithAttachment")
+	public String sendEmailwithAttachment() {
+		return emailService.sendEmailwithAttachment();
+	}
+	
+	
+
 }
