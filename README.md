@@ -37,6 +37,7 @@ Siga os passos abaixo:
 
 
 3) Depois clique em Segurança
+
 Na sessão "Como fazer login no Google", você deverá ativar a "Verificação em duas etapas". Depois de cadastrar e liberar a senha em duas etapas, será liberado uma nova opção chamada "Senhas e App"
 
 
@@ -46,7 +47,9 @@ Na sessão "Como fazer login no Google", você deverá ativar a "Verificação e
 
 
 Clique na opção "Senhas de App"
+
 Será solicitado para digitar sua senha novamente.
+
 Depois será aberto uma página para cadastrar senha para APP. No combobox "Selecionar App", escolha a opção "Outros"
 
 
@@ -80,8 +83,9 @@ spring.mail.password=iyugkpajschntaiw
 
 
 
-Seu application.properties deverá ficar assim: 
 
+
+- Seu application.properties deverá ficar assim: 
 
 spring.mail.host=smtp.gmail.com
 
@@ -102,6 +106,7 @@ onde username deverá seu Email e password deverá ser a senha que você acabu d
 ## Test
 
 http://localhost:8080/api/sendEmail
+
 http://localhost:8080/api/sendEmailwithAttachment
 
 
