@@ -4,7 +4,9 @@ Send Email From Spring Boot App Using Gmail
 
 ## Dependencies
 Spring Web
+
 Spring Boot DevTools 
+
 Java Mail Sender
 
 
